@@ -2,4 +2,64 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+    width: 1920px;
+}
+header{
+    margin: 0 auto;
+}
+
+nav{
+    margin: 50px 240px;
+}
+
+.nav-title img{
+    width: 86.041px;
+    height: 40px;
+    
+
+}
+
+.nav-title{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-heading{
+    
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icons{
+    width: 33.916px;
+height: 24px;
+flex-shrink: 0;
+}
+.nav-container li{
+    list-style: none;
+    
+    
+}
+
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+    
+    
+}
+.nav-container{
+    display: flex;
+    flex: 1;
+}
+.icon-div{
+    display: flex;
+    width: 262px;
+height: 56px;
+flex-shrink: 0;
 }
