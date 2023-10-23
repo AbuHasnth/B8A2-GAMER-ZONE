@@ -4,7 +4,11 @@
     padding: 0px;
     width: 100%;
 }
-
+header{
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid tomato;
+}
 
 nav{
     margin: 50px 240px;
@@ -51,6 +55,8 @@ flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 65%;
+    text-align: center;
     
 }
 .nav-menu li{
