@@ -4,9 +4,9 @@
     padding: 0px;
     
 }
-header{
+body{
     width: 70%;
-    margin: 0 auto;
+    margin: 30px auto;
     
 }
 
@@ -178,6 +178,16 @@ text-transform: uppercase;
     
 }
 
+/* online game section style */
+main{
+    margin-top: 30px;
+}
+.online-description-container{
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* responsive style */
 
 @media screen and (max-width: 580px) {
@@ -257,7 +267,7 @@ text-transform: uppercase;
         gap: 34px;
     }
     .button-div{
-        margin: 0 25px;
+        margin: 0 50px;
     }
     .paragraph-container{
         margin: 0 34px;
