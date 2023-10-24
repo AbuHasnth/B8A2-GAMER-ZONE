@@ -241,7 +241,6 @@ bottom: 275px;
     background: #FFF;
     display: flex;
     align-items: center;
-    gap: 73px;
     justify-content: space-around;
 }
 .button-container{
@@ -304,7 +303,7 @@ bottom: 275px;
        
     }
     .banner-heading h1{
-        font-size: 25px;
+        font-size: 53px;
         margin-bottom: 20px;
         justify-content: space-between;
         
@@ -355,16 +354,16 @@ bottom: 275px;
     .floating-img-container{
         width: 30%;
     }
-    .img-top img{
-        width: 300px;
-        height: 300px;
+    .img-top{
+        width: 247px;
+        height: 217px;
     }
-    .img-bottom img{
-        width: 50%;
-    }
+    
     .img-bottom{
         left: -52px;
-    top: -132px;
+        top: -84px;
+        height: 100px;
+        width: 100px;
 }
     .play-section{
         gap: 0px;
@@ -372,5 +371,24 @@ bottom: 275px;
     section{
         width: 100%;
     }
+    /* .button-container{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0;
+        row-gap: 0;
+    } */
+    .button-container{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 -23px;
+        /* column-gap: 10px; */
+        row-gap: 19px;
+    }
+    .game-img img{
+        width: 238px;
+        height: 272px;
+        margin: 20px auto;
+    }
+
         
     }
