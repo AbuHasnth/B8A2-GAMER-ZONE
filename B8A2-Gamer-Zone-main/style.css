@@ -227,7 +227,32 @@ bottom: 275px;
     margin-top: 206px;
     text-align: center;
     position: relative;
-    left: 272px;
+    left: 141px;
+}
+
+/* button section */
+
+.btn-game {
+    width: 243px;
+    padding: 31px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    justify-content: space-around;
+}
+.button-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    justify-content: center;
+    margin-left: 72px;
+    row-gap: 20px;
+    padding: 20px;
 }
 /* responsive style */
 
