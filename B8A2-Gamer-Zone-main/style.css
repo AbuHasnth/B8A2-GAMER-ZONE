@@ -186,16 +186,15 @@ main{
     margin-top: 30px;
 }
 .online-description-container{
-    width: 35%;
+    
     margin: 32px 25%;
     text-align: center;
 }
 .game-img img{
-    width: 342px;
-height: 400px;
-
-flex-shrink: 0;
-margin: 13px -31px;
+    
+    width: 300px;
+    height: 400px;
+    margin: 14px;
 }
 .img-top img{
     width: 634.833px;
@@ -321,7 +320,7 @@ bottom: 275px;
     }
     .online-description-container{
         width: 100%;
-        margin: 40px 0;
+        margin:0 auto;
     }
     .play-description{
         margin: 0 auto;
@@ -342,6 +341,11 @@ bottom: 275px;
         left: -52px;
     top: -132px;
 }
+    .play-section{
+        gap: 0px;
+    }
+    section{
+        width: 100%;
+    }
         
     }
-}
