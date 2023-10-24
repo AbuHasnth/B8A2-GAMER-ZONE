@@ -9,6 +9,9 @@ body{
     margin: 30px auto;
     
 }
+.hidden{
+    visibility: hidden;
+}
 
 nav{
     margin: 50px 240px;
@@ -184,8 +187,14 @@ main{
 }
 .online-description-container{
     width: 35%;
-    margin: 0 auto;
+    margin: 32px 25%;
     text-align: center;
+}
+.game-img img{
+    width: 342px;
+height: 400px;
+flex-shrink: 0;
+margin: 30px auto;
 }
 
 /* responsive style */
