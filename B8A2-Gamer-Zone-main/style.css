@@ -226,9 +226,9 @@ top:81px;
     width: 70%;
     margin: 140px auto;
 }
-.game-img img{
+/* .game-img img{
     width: 24%;
-}
+} */
 .text-gradiant{
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text; 
@@ -295,41 +295,55 @@ top:81px;
     text-align: center;
     display: flex;
     /* width: 38%; */
-    /* gap: 60px; */
+    gap: 60px;
     margin: 0 auto;
     /* align-content: center; */
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 40px 0;
 }
-.footer-sponsor-icons{
+
+.btn-game span{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-sponsor-icons {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 60px;
+    /* height: 26px; */
 }
-.footer-sponsor-icons img{
-    width: 13px;
-    /* height: 13px; */
-    color: white;
 
-}
-.footer-policy{
-    color: rgba(255, 255, 255, 0.60);
-    text-align: center;
-    font-size: 8px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-align: center;
-    display: flex;
-    margin-top: 20px;
-    /* width: 42%; */
-    /* gap: 60px; */
-    /* margin: 0 auto; */
-    align-content: stretch;
-    justify-content: space-around;
-    align-items: center;
+    .footer-sponsor-icons img {
+        width: 39px;
+        /* height: 13px; */
+        color: white;
+        margin-bottom: 20px;
+    }
+    .footer-policy {
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        display: flex;
+        margin-top: 20px;
+        /* width: 42%; */
+        gap: 60px;
+        /* margin: 0 auto; */
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
+    }
 
-}
+
+
 .footer-end{
     color: rgba(255, 255, 255, 0.60);
 text-align: center;
@@ -373,11 +387,12 @@ padding: 2rem;
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        margin: 20px auto;
         
     }
-    .game-img img{
+    /* .game-img img{
         width: 70%;
-    }
+    } */
     nav
     {
        width: 100%;
@@ -401,6 +416,25 @@ padding: 2rem;
 
 
     }
+    
+.footer-policy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    /* width: 42%; */
+    /* gap: 60px; */
+    /* margin: 0 auto; */
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+
+}
     .banner-description h3{
         font-size: 28px;
         text-align: center;
@@ -451,7 +485,8 @@ text-transform: uppercase;
     }
    
     .btn-game img{
-        width: 40px;
+        width: 20px;
+        height: 20px;
     }
     .btn-game {
         width: 140px;
@@ -465,8 +500,7 @@ text-transform: uppercase;
         justify-content: space-around;
     }
     .online-description-container{
-        width: 100%;
-        margin:52px auto;
+        text-align: center;
     }
     .play-description{
         margin:  auto;
@@ -503,13 +537,30 @@ line-height: 60px; /* 125% */
     section{
         width: 100%;
     }
-    /* .button-container{
+    .button-container{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    justify-content: center;
+    margin-left: 0px;
+    row-gap: 20px;
+    /* padding: 5px; */
+    margin-bottom: 40px;
+    /* margin: 0 auto;
        margin-left: 0px;
-    } */
+    }
     /* .button-container{
         grid-template-columns: repeat(3, 1fr);
         row-gap: 19px;
-    } */
+     */
+    }
+    .footer-sponsor-icons img {
+        width: 13px;
+        /* height: 13px; */
+        color: white;
+        margin-bottom: 20px;
+    }
     
     
     #btn-sign-in{
@@ -517,6 +568,21 @@ line-height: 60px; /* 125% */
     font-size: 20px;
     width: 150px;
     }
-
-        
+    
+    .footer-feature {
+        color: #FFF;
+        text-align: center;
+        display: flex;
+        /* width: 15%; */
+        gap: 17px;
+        margin: 0 auto;
+        /* align-content: center; */
+        justify-content: center;
+        margin: 30px;
     }
+    .footer-sponsor-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
